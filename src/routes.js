@@ -1,12 +1,12 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import Calendar from './pages/Calendar';
+import Events from './pages/Events';
 
 export default function Routes() {
   return (
     <Switch>
-      <Route path="/" exact component={Calendar} />
+      <Route path="/events" exact component={Events} />
     </Switch>
   );
 }
