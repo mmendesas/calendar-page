@@ -1,0 +1,103 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "VanHackaton",
+      "datetime": "November 15 - 22, 2019",
+      "location": {
+        "city": "Vancouver",
+        "country": "Canada"
+      },
+      "deadline": "11/03/2019",
+      "image": "https://vanhackblobstorageprod.blob.core.windows.net/img/events/thumbnail/37478757-eef9-4cf1-b0c2-9ceb426cffaa.jpg"
+    },
+    {
+      "id": 2,
+      "title": "LEAP Ontario - Job Fair",
+      "datetime": "November 18 - 20, 2019",
+      "location": {
+        "city": "Toronto",
+        "country": "Canada"
+      },
+      "deadline": "11/03/2019",
+      "image": "https://vanhackblobstorageprod.blob.core.windows.net/img/events/thumbnail/287ac4b5-6525-4b46-932a-b8b5601cd041.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Leap Vancouver - Job Fair",
+      "datetime": "December 02 - 04, 2019",
+      "location": {
+        "city": "Vancouver",
+        "country": "Canada"
+      },
+      "deadline": "11/30/2019",
+      "image": "https://vanhackblobstorageprod.blob.core.windows.net/img/events/thumbnail/351665ed-4492-4749-ba43-c8e58f14888e.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Leap Ontario",
+      "datetime": "February 3 - 06, 2020",
+      "location": {
+        "city": "Toronto",
+        "country": "Canada"
+      },
+      "deadline": "01/25/2020",
+      "image": "https://vanhackblobstorageprod.blob.core.windows.net/img/events/thumbnail/1e2d6be2-b729-4ebb-8d0c-2c75035efbee.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Leap Calgary",
+      "datetime": "February 24 - 27, 2020",
+      "location": {
+        "city": "Calgay",
+        "country": "Canada"
+      },
+      "deadline": "02/10/2020",
+      "image": "https://vanhackblobstorageprod.blob.core.windows.net/img/events/thumbnail/9e7bf694-b476-4b93-8981-68c36fbc7235.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Colombia Recruiting Mission",
+      "datetime": "March 07 - 08, 2020",
+      "location": {
+        "city": "Medellín",
+        "country": "Colombia"
+      },
+      "deadline": "02/14/2020",
+      "image": "https://vanhackblobstorageprod.blob.core.windows.net/img/events/thumbnail/44d0f28a-9922-4ae2-9b76-bae55c817778.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Leap MTL",
+      "datetime": "March 09 - 12, 2020",
+      "location": {
+        "city": "Montréal",
+        "country": "Canada"
+      },
+      "deadline": "03/01/2020",
+      "image": "https://vanhackblobstorageprod.blob.core.windows.net/img/events/thumbnail/4d8170b8-9ba6-4365-82ae-f028f02b281c.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Leap Vancouver",
+      "datetime": "March 30 - April 2, 2020",
+      "location": {
+        "city": "Vancouver",
+        "country": "Canada"
+      },
+      "deadline": "03/08/2020",
+      "image": "https://vanhackblobstorageprod.blob.core.windows.net/img/events/thumbnail/9e962cf3-8ee5-4a84-ba85-89b4340d1b09.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Relocation Summit 2019",
+      "datetime": "November 27 - December 4, 2019",
+      "location": {
+        "city": "Vancouver",
+        "country": "Canada"
+      },
+      "deadline": "11/26/2019",
+      "image": "https://vanhackblobstorageprod.blob.core.windows.net/img/events/thumbnail/relocation-summit-2019.png"
+    }
+  ]
+}

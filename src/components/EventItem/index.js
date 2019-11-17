@@ -4,28 +4,32 @@ import IconLocation from '../../assets/images/icon-location.png';
 import {
   Container,
   Content,
+  Flag,
   Title,
   DeadlineInfo,
   Location,
   Button,
 } from './styles';
 
-export default function EventItem() {
+export default function EventItem({ data }) {
+  const { image, title, datetime, location, deadline } = data;
+
   return (
     <Container>
-      <img
-        src="https://vanhackblobstorageprod.blob.core.windows.net/img/events/thumbnail/37478757-eef9-4cf1-b0c2-9ceb426cffaa.jpg"
-        alt="event"
-      />
+      <img src={image} alt="event" />
+      <Flag name={location.country.toLowerCase()} />
       <Content>
-        <Title>VanHackaton</Title>
-        <div>November 15 - 22, 2019</div>
+        <Title>{title}</Title>
+        <div>{datetime}</div>
         <Location>
           <img src={IconLocation} alt="icon-location" />
-          <div>Vancouver - Canada</div>
+          <div>
+            {location.city} - {location.country}
+          </div>
         </Location>
         <DeadlineInfo>
-          <strong>Deadline:</strong>11/03/2019
+          <strong>Deadline:</strong>
+          <span>{deadline}</span>
         </DeadlineInfo>
         <Button>See Details</Button>
       </Content>
