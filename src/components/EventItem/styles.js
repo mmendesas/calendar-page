@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.li`
+  display: flex;
+  flex-direction: column;
   background-color: rgb(255, 255, 255);
   width: 300px;
   min-height: 324px;

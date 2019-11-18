@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import IconLocation from '../../assets/images/icon-location.png';
 
 import {
@@ -36,3 +37,16 @@ export default function EventItem({ data }) {
     </Container>
   );
 }
+
+EventItem.propTypes = {
+  data: PropTypes.shape({
+    image: PropTypes.string,
+    title: PropTypes.string,
+    datetime: PropTypes.string,
+    location: PropTypes.shape({
+      city: PropTypes.string,
+      country: PropTypes.string,
+    }),
+    deadline: PropTypes.string,
+  }).isRequired,
+};
