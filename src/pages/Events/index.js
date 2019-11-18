@@ -45,7 +45,7 @@ export default function Events() {
 
         <Strip>
           <Title>VanHackatons</Title>
-          <Carousel>
+          <Carousel size={hackatons.length}>
             {hackatons.map(event => (
               <EventItem key={event.id} data={event} />
             ))}
@@ -54,7 +54,7 @@ export default function Events() {
 
         <Strip>
           <Title>Missions</Title>
-          <Carousel>
+          <Carousel size={missions.length}>
             {missions.map(event => (
               <EventItem key={event.id} data={event} />
             ))}

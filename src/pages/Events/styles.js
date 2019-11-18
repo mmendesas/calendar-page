@@ -29,8 +29,8 @@ export const GridList = styled.ul`
   grid-gap: 20px;
 `;
 
-export const Carousel = styled(Slider).attrs(() => ({
-  infinite: true,
+export const Carousel = styled(Slider).attrs(props => ({
+  infinite: props.size && props.size > 3,
   speed: 400,
   slidesToShow: 4,
   slidesToScroll: 1,
