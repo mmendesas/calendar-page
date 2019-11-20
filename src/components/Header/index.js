@@ -12,7 +12,7 @@ export default function index() {
         <img src={logo} alt="Logo" />
       </Link>
       <Menu>
-        <Link to="/jobs">Jobs</Link>
+        <Link to="/">Courses</Link>
         <Link to="/events">Events</Link>
       </Menu>
       <UserInfo href="https://github.com/mmendesas">

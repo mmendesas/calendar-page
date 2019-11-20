@@ -17,9 +17,9 @@ exports[`[Component] Header should be match snapshot 1`] = `
     class="sc-bwzfXH cFpKRr"
   >
     <a
-      href="/jobs"
+      href="/"
     >
-      Jobs
+      Courses
     </a>
     <a
       href="/events"
