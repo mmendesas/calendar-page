@@ -25,5 +25,5 @@ Strip.defaultProps = {
 
 Strip.propTypes = {
   title: PropTypes.string,
-  list: PropTypes.arrayOf(PropTypes.string),
+  list: PropTypes.arrayOf(PropTypes.object),
 };

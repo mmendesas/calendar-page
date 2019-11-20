@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Hero should be match snapshot 1`] = `
+<div
+  class="sc-bdVaJa deTEtB"
+  data-testid="hero"
+>
+  <div
+    alt="Hero"
+    class="sc-bwzfXH caOQhJ"
+  />
+  <div
+    class="sc-htpNat hkTRzL"
+  >
+    <div
+      class="sc-bxivhb bHkRbh"
+      name="canada"
+    />
+    <div
+      class="sc-ifAKCX jKojjw"
+    >
+      <h2
+        class="sc-EHOje dDmdei"
+      >
+        Some Test
+      </h2>
+      <div>
+        <div
+          class="sc-bZQynM gBZrhZ"
+        >
+          <span>
+            Vancouver - Canada
+          </span>
+          <span>
+            November 15 - 20, 2019
+          </span>
+          <span>
+            Deadline: 
+            <span>
+              11/20/2019
+            </span>
+          </span>
+        </div>
+        <button
+          class="sc-gzVnrw lmmXHA"
+        >
+          See Application
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -7,7 +7,7 @@ import logo from '../../assets/images/vanhack-logo.svg';
 
 export default function index() {
   return (
-    <Container>
+    <Container data-testid="header">
       <Link to="/">
         <img src={logo} alt="Logo" />
       </Link>

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Header should be match snapshot 1`] = `
+<header
+  class="sc-bdVaJa eEVJUI"
+  data-testid="header"
+>
+  <a
+    href="/"
+  >
+    <img
+      alt="Logo"
+      src="vanhack-logo.svg"
+    />
+  </a>
+  <ul
+    class="sc-bwzfXH cFpKRr"
+  >
+    <a
+      href="/jobs"
+    >
+      Jobs
+    </a>
+    <a
+      href="/events"
+    >
+      Events
+    </a>
+  </ul>
+  <a
+    class="sc-bxivhb jUXNXE"
+    href="https://github.com/mmendesas"
+  >
+    <div
+      class="sc-htpNat hmzhmz"
+    />
+  </a>
+</header>
+`;

@@ -15,7 +15,7 @@ import {
 export default function Hero({ data }) {
   const { image, title, datetime, deadline } = data;
   return (
-    <Container>
+    <Container data-testid="hero">
       <Image alt="Hero" url={image} />
       <Info>
         <Flag name="canada" />

@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] EventItem should be match snapshot 1`] = `
+<li
+  class="sc-bxivhb floOoc"
+  data-testid="eventItem"
+>
+  <img
+    alt="event"
+    src="https://vanhackblobstorageprod.blob.core.windows.net/img/events/thumbnail/37478757-eef9-4cf1-b0c2-9ceb426cffaa.jpg"
+  />
+  <div
+    class="sc-dnqmqq hWwYNg"
+    name="brazil"
+  />
+  <div
+    class="sc-ifAKCX APnor"
+  >
+    <div
+      class="sc-EHOje SoJTC"
+    >
+      Some Test
+    </div>
+    <div>
+      November 15 - 20, 2019
+    </div>
+    <div
+      class="sc-gzVnrw fKazfQ"
+    >
+      <img
+        alt="icon-location"
+        src="icon-location.png"
+      />
+      <div>
+        SaoPaulo
+         - 
+        Brazil
+      </div>
+    </div>
+    <div
+      class="sc-bZQynM eYzvQb"
+    >
+      <strong>
+        Deadline:
+      </strong>
+      <span>
+        11/20/2019
+      </span>
+    </div>
+    <button
+      class="sc-htoDjs fWqFVQ"
+    >
+      See Details
+    </button>
+  </div>
+</li>
+`;

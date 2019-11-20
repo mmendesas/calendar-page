@@ -21,7 +21,7 @@ export default function EventItem({ data }) {
 
   return (
     <>
-      <Container>
+      <Container data-testid="eventItem">
         <img src={image} alt="event" />
         <Flag name={location.country.toLowerCase()} />
         <Content>
