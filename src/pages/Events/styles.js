@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import Slider from 'react-slick';
 
 export const Container = styled.div`
   display: flex;
@@ -18,8 +17,6 @@ export const Strip = styled.section`
   background: rgba(236, 241, 248, 0.3);
 `;
 
-export const Title = styled.h2``;
-
 export const GridList = styled.ul`
   margin: 30px 0px;
   width: 1280px;
@@ -29,17 +26,38 @@ export const GridList = styled.ul`
   grid-gap: 20px;
 `;
 
-export const Carousel = styled(Slider).attrs(props => ({
-  infinite: props.size && props.size > 3,
-  speed: 400,
-  slidesToShow: 4,
-  slidesToScroll: 1,
-  arrows: true,
-}))`
-  margin-top: 15px;
-  height: 100%;
+export const Options = styled.section`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: flex-end;
 
-  > div > div {
-    height: 350px;
+  > h3 {
+    color: #aaa;
+    margin-right: 3px;
+  }
+`;
+
+export const Option = styled.button`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 2px;
+  margin: 15px 5px;
+  border-radius: 4px;
+  box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1),
+    0 3px 1px 0 rgba(20, 23, 28, 0.1);
+  transition: all 0.2s ease-in-out;
+
+  > img {
+    width: 30px;
+    height: 30px;
+  }
+
+  &:hover {
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 0.15);
+    transform: scale(1.1);
   }
 `;
