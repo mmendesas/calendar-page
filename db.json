@@ -1,4 +1,14 @@
 {
+  "main": {
+    "title": "Relocation Summit 2019",
+    "datetime": "November 27 - December 4, 2019",
+    "location": {
+      "city": "Vancouver",
+      "country": "Canada"
+    },
+    "deadline": "11/26/2019",
+    "image": "https://vanhackblobstorageprod.blob.core.windows.net/img/events/cover/relocation-summit-2019.png"
+  },
   "events": [
     {
       "id": 1,

@@ -16,6 +16,7 @@ export default function Events() {
   const [leaps, setLeaps] = useState([]);
   const [hackatons, setHackatons] = useState([]);
   const [option, setOption] = useState('list');
+  const [hero, setHero] = useState({});
 
   async function fetchData() {
     const response = await api.get('events');
@@ -27,13 +28,19 @@ export default function Events() {
     setHackatons(data.filter(item => item.type === 'hackaton'));
   }
 
+  async function fecthHero() {
+    const response = await api.get('main');
+    setHero(response.data);
+  }
+
   useEffect(() => {
     fetchData();
+    fecthHero();
   }, []);
 
   return (
     <Container>
-      <Hero />
+      <Hero data={hero} />
       <Options>
         <h3>Define your view mode:</h3>
         <Option name="list" title="list view" onClick={() => setOption('list')}>

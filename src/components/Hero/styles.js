@@ -10,8 +10,7 @@ export const Container = styled.div`
 `;
 
 export const Image = styled.div`
-  background: url(https://vanhackblobstorageprod.blob.core.windows.net/img/events/cover/relocation-summit-2019.png)
-    no-repeat center;
+  background: url(${props => props.url}) no-repeat center;
   background-size: cover;
   width: 100%;
   height: 320px;

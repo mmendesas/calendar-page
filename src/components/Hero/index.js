@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import {
   Container,
@@ -11,20 +12,21 @@ import {
   Button,
 } from './styles';
 
-export default function Hero() {
+export default function Hero({ data }) {
+  const { image, title, datetime, deadline } = data;
   return (
     <Container>
-      <Image alt="Hero" />
+      <Image alt="Hero" url={image} />
       <Info>
         <Flag name="canada" />
         <InfoContent>
-          <Title>Relocation Summit 2019</Title>
+          <Title>{title}</Title>
           <div>
             <TextContent>
               <span>Vancouver - Canada</span>
-              <span>November 27 - December 4, 2019</span>
+              <span>{datetime}</span>
               <span>
-                Deadline: <span>11/26/2019</span>
+                Deadline: <span>{deadline}</span>
               </span>
             </TextContent>
             <Button>See Application</Button>
@@ -34,3 +36,16 @@ export default function Hero() {
     </Container>
   );
 }
+
+Hero.propTypes = {
+  data: PropTypes.shape({
+    image: PropTypes.string,
+    title: PropTypes.string,
+    datetime: PropTypes.string,
+    location: PropTypes.shape({
+      city: PropTypes.string,
+      country: PropTypes.string,
+    }),
+    deadline: PropTypes.string,
+  }).isRequired,
+};
