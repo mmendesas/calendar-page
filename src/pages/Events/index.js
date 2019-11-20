@@ -33,6 +33,7 @@ export default function Events() {
     setHero(response.data);
   }
 
+  // fetch data on mount component
   useEffect(() => {
     fetchData();
     fecthHero();
@@ -58,6 +59,7 @@ export default function Events() {
             ))}
           </GridList>
         ) : (
+          // use react-slick to show carousel
           <>
             <Strip title="Leaps" list={leaps} />
             <Strip title="Vanhackatons" list={hackatons} />
